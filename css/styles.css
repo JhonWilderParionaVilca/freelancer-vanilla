@@ -1,0 +1,17 @@
+/* *HACK PARA REMS */
+html{
+  font-size: 62.5%;
+}
+body{
+  font-size: 16px;
+}
+/* *1REM = 10PX */
+
+h1{
+  text-align: center; /* centrar texto */
+  font-size: 3.8rem;
+}
+
+span{
+  font-size: 2rem
+}
