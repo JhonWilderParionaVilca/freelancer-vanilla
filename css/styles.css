@@ -9,6 +9,7 @@
 /* *HACK PARA REMS */
 html{
   font-size: 62.5%;
+  box-sizing: border-box;
 }
 body{
   font-size: 16px;
@@ -16,9 +17,23 @@ body{
 }
 /* *1REM = 10PX */
 
-.titulo{
-  text-align: center; /* centrar texto */
+/* *BOXSIZING */
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+/* global headings */
+h1{
   font-size: 3.8rem;
+}
+h2{
+  font-size: 2.8rem;
+}
+h3{
+  font-size: 1.8rem;
+}
+h1,h2,h3{
+  text-align: center;
 }
 
 .titulo span{
@@ -65,3 +80,28 @@ body{
   }
  }
 
+ .hero{
+   background-image: url(../img/hero.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 45.8rem;
+   position: relative;
+ }
+
+ .hero-wrapper{
+   position: absolute; /* el padre debe de ser relative */
+   /* podemos usar top bottom, ... */
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.7);
+
+  /* alinear horizontal y verticalmente */
+  display: flex;
+  flex-direction: column;
+  align-items: center;/* centra horizontal para column */
+  justify-content: center;/* centra vertical para column */
+ }
+
+ .hero-wrapper h2, .hero-wrapper p{
+   color: var(--white);
+ }
