@@ -1,17 +1,26 @@
+:root{
+  --white: #fff;
+  --black: #212121;
+  --primary: #ffc107;
+  --secondary: #0097a7;
+  --gris: #757575;
+}
+
 /* *HACK PARA REMS */
 html{
   font-size: 62.5%;
 }
 body{
   font-size: 16px;
+  font-family: 'Krub', sans-serif;
 }
 /* *1REM = 10PX */
 
-h1{
+.titulo{
   text-align: center; /* centrar texto */
   font-size: 3.8rem;
 }
 
-span{
+.titulo span{
   font-size: 2rem
 }
