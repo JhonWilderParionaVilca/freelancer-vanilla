@@ -172,3 +172,26 @@ h1,h2,h3{
    line-height: 2;
    text-align: center;
  }
+
+ /* Formulario */
+
+ .form{
+   background-color: var(--gris);
+   width: min(60rem, 100%); /* toma el valor mas pequeño */
+   margin: 0 auto;
+   padding: 2rem;
+   border-radius: 1rem;
+ }
+
+ .form fieldset{
+   border: none;
+ }
+
+ .form legend{
+   text-transform: uppercase;
+   text-align: center;
+   color: var(--primary);
+   font-weight: bold;
+   margin-bottom: 2rem;
+   font-size: 1.8rem;
+ }
