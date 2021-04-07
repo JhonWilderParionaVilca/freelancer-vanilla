@@ -4,6 +4,7 @@
   --primary: #ffc107;
   --secondary: #0097a7;
   --gris: #757575;
+  --ligth-gris: #DFE9F3;
 }
 
 /* *HACK PARA REMS */
@@ -14,6 +15,7 @@ html{
 body{
   font-size: 16px;
   font-family: 'Krub', sans-serif;
+  background-image: linear-gradient(to top, var(--ligth-gris) 0%, var(--white) 100%);
 }
 /* *1REM = 10PX */
 
