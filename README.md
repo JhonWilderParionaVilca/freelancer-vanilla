@@ -11,7 +11,7 @@
 # ⚒️ Tecnologias usadas
 
 - HTML, CSS Y JavaScript
-- [Pageclip)(https://pageclip.co/)
+- [Pageclip](https://pageclip.co/)
 
 ## 🚀 Como usar
 
