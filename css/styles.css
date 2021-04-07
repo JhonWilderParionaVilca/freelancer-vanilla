@@ -105,3 +105,23 @@ h1,h2,h3{
  .hero-wrapper h2, .hero-wrapper p{
    color: var(--white);
  }
+
+ .btn {
+  background-color: var(--secondary);
+  color: var(--white);
+  padding: 1rem 3rem;
+  margin-top: 1rem;
+  border-radius: .5rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  width: 90%;
+ }
+
+ @media (min-width: 720px) {
+  .btn{
+    width: auto;
+  }
+ }
