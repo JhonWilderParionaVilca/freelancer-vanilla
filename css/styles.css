@@ -130,6 +130,11 @@ h1,h2,h3{
   text-decoration: none;
   text-align: center;
   width: 90%;
+  border: none;
+ }
+
+ .btn:hover{
+   cursor: pointer;
  }
 
  @media (min-width: 720px) {
@@ -137,6 +142,23 @@ h1,h2,h3{
     width: auto;
   }
  }
+
+ .flex{
+   display: flex;
+ }
+
+  .align-rigth{
+    justify-content: flex-end;
+  }
+ .w-sm-full{
+   width: 100%;
+ }
+
+  @media (min-width: 720px) {
+    .w-sm-full{
+      width: auto;
+    }
+  }
 
  /* SERVICES */
  @media (min-width: 720px) {
