@@ -273,3 +273,8 @@ h1,h2,h3{
  }
 
 
+/* validacion */
+input.invalid, textarea.invalid {
+  border: 1px solid;
+  border-color: red;
+}
