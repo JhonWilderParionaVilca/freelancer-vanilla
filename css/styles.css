@@ -6,6 +6,17 @@
   --gris: #757575;
   --ligth-gris: #DFE9F3;
 }
+/* *SELECCION */
+::-moz-selection {
+  background-color: transparent;
+  color: #007ee5;
+  text-shadow: none;
+}
+::selection {
+  background-color: transparent;
+  color: #007ee5;
+  text-shadow: none;
+}
 
 /* *HACK PARA REMS */
 html{
